@@ -8,7 +8,7 @@ sed '24i ILoveCandy' /etc/pacman.conf
 echo("Updating system...")
 pacman -Syu --noconfirm 
 echo("Installing necessary pentesting tools...")
-pacman -Sy --noconfirm aircrack-ng apache arp-scan code yay cracklib curl exploitdb fping git hashcat hashcat-utils hashdeep hping hydra net-tools nmap nikto ncrack php composer nodejs npm tmux termshark wireshark-qt tmux radare2 tcpdump unzip
+pacman -Sy --noconfirm aircrack-ng apache arp-scan code yay cracklib curl exploitdb fping git hashcat neovim vim hashcat-utils hashdeep hping hydra net-tools nmap nikto ncrack php composer nodejs npm tmux termshark wireshark-qt tmux radare2 tcpdump unzip
 cd /tmp 
 git clone https://github.com/secretsquirrel/the-backdoor-factory
 cd the-backdoor-factory
